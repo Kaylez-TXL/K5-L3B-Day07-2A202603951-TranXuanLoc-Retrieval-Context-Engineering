@@ -1,0 +1,66 @@
+{
+  "benchmark_lock": "passed",
+  "split_counts": "passed",
+  "trace_invariants": "passed",
+  "api_key_scan": "passed (key value never printed)",
+  "runs": [
+    {
+      "run": "results\\dev\\baseline",
+      "cases": 17,
+      "errors": 0
+    },
+    {
+      "run": "results\\dev\\dense_wide",
+      "cases": 17,
+      "errors": 7
+    },
+    {
+      "run": "results\\dev\\hybrid",
+      "cases": 17,
+      "errors": 0
+    },
+    {
+      "run": "results\\dev\\lexical",
+      "cases": 17,
+      "errors": 0
+    },
+    {
+      "run": "results\\test\\baseline",
+      "cases": 7,
+      "errors": 0
+    },
+    {
+      "run": "results\\test\\hybrid",
+      "cases": 7,
+      "errors": 0
+    }
+  ],
+  "bonus_runs": [
+    {
+      "run": "results\\bonus\\dev\\compact",
+      "cases": 18,
+      "passed": 6,
+      "review_status": "ai_provisional"
+    },
+    {
+      "run": "results\\bonus\\dev\\focused",
+      "cases": 18,
+      "passed": 17,
+      "review_status": "ai_provisional"
+    },
+    {
+      "run": "results\\bonus\\dev\\thorough",
+      "cases": 18,
+      "passed": 15,
+      "review_status": "ai_provisional"
+    },
+    {
+      "run": "results\\bonus\\test\\focused",
+      "cases": 30,
+      "passed": 28,
+      "review_status": "human_confirmed"
+    }
+  ],
+  "author_case_reviews": 14,
+  "human_review": "Basic case-level grades are human-confirmed; citation booleans are derived conservatively. Bonus review status is reported per run; dev AI labels remain provisional. This check does not certify semantic correctness."
+}

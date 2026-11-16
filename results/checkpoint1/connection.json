@@ -1,0 +1,25 @@
+{
+  "chunks": 237,
+  "exact_database_match": true,
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "smoke_query_hits": 3,
+  "smoke_results": [
+    {
+      "id": "eb43ada328fb9056667a539a7907ae96755fe7bc91ca6633861f4b98acd59f4a",
+      "page": 16,
+      "score": 0.9047433733940125
+    },
+    {
+      "id": "153d13967c75cd1b30b6a29ef7993ce2bd5225509f48f028d66efc89960ad35a",
+      "page": 14,
+      "score": 0.9044746160507202
+    },
+    {
+      "id": "9002dde17c9c8615a615ac2d74d014a533bbafa2a64f0744e502a1b19f665bee",
+      "page": 16,
+      "score": 0.8889884948730469
+    }
+  ]
+}

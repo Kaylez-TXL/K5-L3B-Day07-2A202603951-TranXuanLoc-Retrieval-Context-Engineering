@@ -1,0 +1,32 @@
+{
+  "day6_path": "D:\\Git_AI\\K5-L3B-Day06-TranXuanLoc-2A202603951-DataIngestionEngineering",
+  "source_sha256": "d2722db99785d9bc3b39c358d0eda38a24e69774fa9f37415c5536a82b4b2ff9",
+  "source_id": "auag-thesis-2026",
+  "permission": "Tôi là Trần Xuân Lộc, tác giả đồ án này và người thực hiện bài thực hành Data Ingestion Engineering. Tôi sử dụng đồ án của mình làm corpus cho bài nộp; các tài liệu và hình ảnh tham khảo vẫn giữ nguồn trích dẫn trong đồ án.",
+  "pages": 54,
+  "chunks": 237,
+  "chunking": {
+    "strategy": "A",
+    "size": 500,
+    "overlap": 50
+  },
+  "embedding": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "dimensions": 384,
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "normalize_embeddings": true
+  },
+  "vector_store": {
+    "type": "pgvector",
+    "table": "day6_chunks",
+    "strategy": "A",
+    "port": 55433
+  },
+  "limitations": [
+    "Chunks reproduced from Day 6 code; verify database equality with src.day6_bridge.",
+    "Text extraction does not interpret figures.",
+    "This export contains only old dev answerable questions; build full Day 7 benchmark separately."
+  ]
+}

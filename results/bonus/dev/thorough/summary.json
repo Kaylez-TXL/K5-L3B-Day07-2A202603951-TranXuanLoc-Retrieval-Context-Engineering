@@ -1,0 +1,43 @@
+{
+  "split": "dev",
+  "preset": "thorough",
+  "passed": 15,
+  "total": 18,
+  "rate": 0.8333333333333334,
+  "groups": {
+    "table": {
+      "n": 3,
+      "N": 3
+    },
+    "image": {
+      "n": 3,
+      "N": 3
+    },
+    "chart": {
+      "n": 2,
+      "N": 3
+    },
+    "multihop": {
+      "n": 2,
+      "N": 3
+    },
+    "text": {
+      "n": 2,
+      "N": 3
+    },
+    "unanswerable": {
+      "n": 3,
+      "N": 3
+    }
+  },
+  "errors": 0,
+  "human_review_complete": false,
+  "numeric_90_percent_met": false,
+  "review_status": "ai_provisional",
+  "bonus_claim_ready": false,
+  "estimated_api_cost_usd": 0.057380900000000006,
+  "input_tokens": 527059,
+  "output_tokens": 9350,
+  "elapsed_ms": 144521.9152000018,
+  "note": "All published cases included; no rounding to cross 90%. Source/units/conditions/calculations checked against original PDF. AI labels do not replace author review."
+}

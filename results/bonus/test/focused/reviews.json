@@ -1,0 +1,302 @@
+[
+  {
+    "query_id": "bt01",
+    "passed": true,
+    "reason": "Đúng 43% [34–60], GHG năm 2030 so với 2019; số CO2 bổ sung 48% [36–69] cũng khớp bảng trang 37.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt02",
+    "passed": true,
+    "reason": "Đúng 73% [55–90], CO2 năm 2050, kịch bản 2°C >67%, so với 2019; đúng hàng/cột trang 37.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt03",
+    "passed": true,
+    "reason": "Đúng 57 [52–60] GtCO2-eq/năm, chính sách đến cuối 2020, năm 2030; bảng 2.2 trang 74.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt04",
+    "passed": true,
+    "reason": "Đúng 16–23 GtCO2-eq/năm; hàng 1.5°C hành động ngay và cột NDC có điều kiện, trang 74.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt05",
+    "passed": true,
+    "reason": "Đúng C1 và xác suất >50%; định nghĩa overshoot và SSP1-1.9 bổ sung khớp bảng tương đương ở trang 81. Bảng này không ghi RCP cho C1.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt06",
+    "passed": true,
+    "reason": "Đúng C6, 3°C >50%, SSP2-4.5 và RCP4.5; bảng trang 26.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt07",
+    "passed": true,
+    "reason": "Đúng hai nhãn Low emissions / Low climate risk; crop nửa phải trang 41 chứa vòng tròn xanh.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt08",
+    "passed": true,
+    "reason": "Đúng ký hiệu shock làm gián đoạn phát triển; chú giải và caption trang 41 hỗ trợ cả ví dụ bổ sung.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt09",
+    "passed": true,
+    "reason": "Đúng chú giải Adverse and positive impacts của vòng tròn sọc; hình SPM.1(a), trang 23.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt10",
+    "passed": true,
+    "reason": "Đúng nhãn 2100 & beyond ở đầu phải trục thời gian; hình SPM.6 trang 41.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt11",
+    "passed": true,
+    "reason": "Đúng hai mục Upper ocean acidification và Increase in hot extremes; nhóm Virtually certain, trang 23.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt12",
+    "passed": true,
+    "reason": "Đúng Electricity 73% trước điện khí hóa bổ sung; các giá trị so sánh trong citation đều khớp hình trang 43.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt13",
+    "passed": true,
+    "reason": "Đúng Buildings 66%, Food 44%, chênh 22 điểm phần trăm; hình trang 43.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt14",
+    "passed": true,
+    "reason": "Đúng khoảng 2400 GtCO2 trong dung sai đã khóa; cột lịch sử và thanh bất định hỗ trợ trên hình 3.5(a), trang 99.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt15",
+    "passed": true,
+    "reason": "Đúng khoảng 500 và 1150 GtCO2, chênh 650; phân biệt đúng thanh 2°C 83% khoảng 900, trang 99.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt16",
+    "passed": false,
+    "reason": "Không đạt: SSP5-8.5 đúng, nhưng tự thêm SSP2-4.5 khoảng 3300 GtCO2 năm 2050. Hình 3.5(b) trang 99 cho điểm cuối SSP2-4.5 khoảng 3750; chỉ SSP1-2.6 gần 3300. Evidence không hỗ trợ toàn bộ câu trả lời.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt17",
+    "passed": false,
+    "reason": "Không đạt theo cách chấm thận trọng: hai ý chính 0.71°C và GHG 64% đúng, nhưng câu bổ sung gọi 73% là CO2 equivalent median. Bảng trang 37 ghi 73% cho CO2, còn GHG quy đổi CO2-eq là 64%. Cần sinh viên kiểm tra cách diễn đạt này; chưa coi toàn bộ câu trả lời chính xác.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt18",
+    "passed": true,
+    "reason": "Đúng 59 × (1−0.43) ≈ 33.6 GtCO2-eq, nêu rõ phép tính minh họa không phải dự báo model hài hòa; crop trang 20 chứa A.1.4 và bảng trang 37.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt19",
+    "passed": true,
+    "reason": "Đúng 3.7 [3.2–4.2] mm/năm, 2006–2018, và 0.28–0.55 m năm 2100 với SSP1-1.9, so với 1995–2014; đủ hai vùng trang 21/34.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt20",
+    "passed": true,
+    "reason": "Đúng 85%−55%=30 điểm phần trăm và land transport 67%; trang 69/43 hỗ trợ. Tên mục A.4.2 trong citation trang 69 chưa đúng nhưng đoạn và trang vẫn tìm được chính xác.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt21",
+    "passed": true,
+    "reason": "Đúng nhóm 10% đóng góp 34–45% và nhóm 50% thấp nhất 13–15%, phát thải hộ gia đình theo tiêu dùng; A.1.5 trang 21.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt22",
+    "passed": true,
+    "reason": "Đúng 3.3–3.6 tỷ người; A.2.2 trang 21.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt23",
+    "passed": true,
+    "reason": "Đúng ít nhất 170 quốc gia và nhiều thành phố; A.3.1 trong crop trang 24.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt24",
+    "passed": true,
+    "reason": "Đúng methane giảm 34% [21–57] năm 2030 so với 2019, 1.5°C >50% không/vượt ít; B.6.2 trang 37.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt25",
+    "passed": true,
+    "reason": "Từ chối, không suy đoán. Rà toàn bộ text không thấy Viet Nam/Vietnam; báo cáo tổng hợp toàn cầu không cung cấp tổng CO2 quốc gia chính xác năm 2031.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt26",
+    "passed": true,
+    "reason": "Từ chối, không suy đoán. Rà toàn bộ text không thấy District 7/Ho Chi Minh; không có độ sâu ngập quận 7 năm 2050.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt27",
+    "passed": true,
+    "reason": "Từ chối, không suy đoán. Rà toàn bộ text không thấy Hanoi/Ha Noi; không có tổng mưa Hà Nội năm 2037.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt28",
+    "passed": true,
+    "reason": "Từ chối đúng. Không có SSP6-12.0 trong toàn bộ text; đối chiếu danh sách kịch bản bảng trang 26/81.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt29",
+    "passed": true,
+    "reason": "Từ chối đúng. Bảng SPM.1 trang 37 chỉ có các cột 2030/2035/2040/2050, không có 2032; không nội suy.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  },
+  {
+    "query_id": "bt30",
+    "passed": true,
+    "reason": "Từ chối, không suy đoán. Rà toàn bộ text không thấy Hue/Huế; tài liệu không cung cấp địa chỉ sơ tán cụ thể tại Huế năm 2050.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "original_pdf_checked": true,
+    "trace_sha256": "88325c75ca7e61b9fe52955a0488326f7c776bac937f5371ad5494a434262e4c",
+    "review_method": "AI-assisted review confirmed by the author; existing pass/fail labels and reasons retained."
+  }
+]

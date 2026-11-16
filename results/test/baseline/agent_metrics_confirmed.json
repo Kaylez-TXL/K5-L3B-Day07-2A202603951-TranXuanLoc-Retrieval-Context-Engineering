@@ -1,0 +1,46 @@
+{
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 3,
+    "1": 1,
+    "2": 1,
+    "N": 5,
+    "mean": 0.6
+  },
+  "citation_validity": {
+    "n": 1,
+    "N": 3
+  },
+  "answer_citation_coverage": {
+    "n": 3,
+    "N": 3
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 2,
+    "N": 5
+  },
+  "context_grades": {
+    "0": 3,
+    "1": 1,
+    "2": 1
+  },
+  "context_mean": 0.6,
+  "review_provenance": {
+    "ai_provisional": 0,
+    "human_confirmed": 7
+  },
+  "label_source": "results\\test\\baseline\\reviews.json",
+  "citation_label_origins": [
+    "Derived conservatively from author case-level source judgment; no final citations added"
+  ],
+  "warning": "Author case-level grades recorded from chat. Citation booleans derived from the supplied source-support assessment; partial support is not counted as fully valid."
+}

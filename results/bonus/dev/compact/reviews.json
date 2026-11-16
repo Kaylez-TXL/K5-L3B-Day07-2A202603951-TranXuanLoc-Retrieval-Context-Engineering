@@ -1,0 +1,164 @@
+[
+  {
+    "query_id": "bd01",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd02",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd03",
+    "passed": true,
+    "reason": "Đúng hàng C8, đủ mức 4°C và xác suất >50%; trang 26 hỗ trợ.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd04",
+    "passed": true,
+    "reason": "Đủ ba năm sinh, tuổi 70 và mốc thời gian khớp sơ đồ trang 23.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd05",
+    "passed": true,
+    "reason": "Đọc đúng bốn mức nhiệt ở các bản đồ Figure SPM.3(a), trang 32.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd06",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd07",
+    "passed": true,
+    "reason": "Đúng Industry=29%, năm 2050, vị trí biểu đồ và citation trang 43.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd08",
+    "passed": false,
+    "reason": "So sánh Solar lớn hơn là đúng nhưng thêm ước lượng Fossil CCS 0.7–0.8 không khớp thanh khoảng 0.5–0.6 trên ảnh; chưa hỗ trợ toàn bộ câu trả lời.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd09",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd10",
+    "passed": false,
+    "reason": "Liệt kê được các yếu tố và tỷ lệ 3–6 nhưng phần mở đầu tự mâu thuẫn về có bốn ràng buộc; câu trả lời chưa rõ và nhất quán.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd11",
+    "passed": false,
+    "reason": "Số 18 và 3.2°C đúng nhưng thêm phân loại khoảng bất định không được citation hỗ trợ, phủ định very likely dù SPM quy ước khoảng 5–95%; không đạt yêu cầu toàn bộ phát biểu có bằng chứng.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd12",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd13",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd14",
+    "passed": true,
+    "reason": "Đúng 410 ppm năm 2019 và ít nhất 2 triệu năm; citation có A.1.3.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd15",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd16",
+    "passed": true,
+    "reason": "Từ chối thông số mưa địa phương/năm không được báo cáo, không thêm số suy đoán.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd17",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  },
+  {
+    "query_id": "bd18",
+    "passed": false,
+    "reason": "Lỗi thực thi/kết nối: Anthropic connection failure (TimeoutError); tính không đạt và giữ trong mẫu số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": false,
+    "trace_sha256": "88717af4af2a54b1d9badfe6de932ee442c82a3eee7d7e637b4fab1e629a5174"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "split": "test",
+  "name": "hybrid",
+  "config": {
+    "method": "hybrid",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "hypothesis": "Improvement 1: rank fusion plus larger context and follow-up search may recover technical terms and missing evidence. Combined intervention; do not attribute gains to fusion alone."
+  },
+  "model": "claude-haiku-5-5",
+  "benchmark_sha256": "9f0fe0c5d200496f8c35bb47a316d9c74729e6edb6384ef46db74026e3fc6f6c",
+  "corpus_sha256": "fc0d7e58f25f19f18843bef7e63b19c1ce7adac5bafb87b218a5c9205f9743aa",
+  "prompt_sha256": "f46ad796bda8575201f6e7b74597108685201d917e691fe3dc313834a6ad352d",
+  "selection_rule_sha256": "4751eec05d3b57a638597ab9edeb1004575d63c361a996538fab054d59ae621c",
+  "experiments_sha256": "619d93fee6a719f6fda4d5b84513c7d9b82be3d70c295454e5a8073d3b1a79a4",
+  "query_ids": [
+    "day7-t01",
+    "day7-t02",
+    "day7-t03",
+    "day7-t04",
+    "day7-t05",
+    "day7-u03",
+    "day7-u04"
+  ],
+  "started_at": "2026-11-16T03:37:22.551813+00:00"
+}

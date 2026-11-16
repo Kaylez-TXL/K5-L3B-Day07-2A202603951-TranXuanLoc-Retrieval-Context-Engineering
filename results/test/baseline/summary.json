@@ -1,0 +1,52 @@
+{
+  "cases": 7,
+  "errors": 0,
+  "first_attempt_errors": 0,
+  "previous_attempt_errors": 0,
+  "attempt_count": 7,
+  "original_hit1": {
+    "n": 2,
+    "N": 5,
+    "rate": 0.4
+  },
+  "original_hit3": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "original_context_evidence": {
+    "n": 2,
+    "N": 5,
+    "rate": 0.4
+  },
+  "agent_context_evidence": {
+    "n": 1,
+    "N": 5,
+    "rate": 0.2
+  },
+  "tool_use": {
+    "n": 7,
+    "N": 7,
+    "rate": 1.0
+  },
+  "false_abstention_status": {
+    "n": 2,
+    "N": 5,
+    "rate": 0.4
+  },
+  "unanswerable_abstention_status": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "decision_status_correct": 5,
+  "search_call_distribution": {
+    "1": 7
+  },
+  "input_tokens": 18357,
+  "output_tokens": 2980,
+  "estimated_cost_usd": 0.0033257,
+  "agent_elapsed_ms": 28713.758600000347,
+  "elapsed_ms_including_retries": 28713.758600000347,
+  "metric_note": "Evidence metrics are normalized exact-excerpt proxies; statuses are behavior proxies. Semantic grounding and citation support require separate review. Errors retained in evidence/status denominators and reported separately."
+}

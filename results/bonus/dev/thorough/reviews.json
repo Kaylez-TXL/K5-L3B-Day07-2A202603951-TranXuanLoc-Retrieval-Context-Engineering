@@ -1,0 +1,164 @@
+[
+  {
+    "query_id": "bd01",
+    "passed": true,
+    "reason": "Đúng 46% [34–63], năm 2040, 2°C (>67%), mốc 2019; trang 37 đúng ô.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd02",
+    "passed": true,
+    "reason": "Đúng median 53, khoảng 50–57 GtCO2-eq/năm, NDC không điều kiện; đúng ô trang 74.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd03",
+    "passed": true,
+    "reason": "Đúng C8 vượt 4°C (>50%), source bảng trang 26.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd04",
+    "passed": true,
+    "reason": "Đúng ba năm sinh 1950/1980/2020, khớp các nhãn hình trang 23.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd05",
+    "passed": true,
+    "reason": "Đúng bốn mức 1.5/2/3/4°C và mốc so sánh; trang 32 hỗ trợ.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd06",
+    "passed": true,
+    "reason": "Đủ hai điều kiện, các ví dụ thêm đều có trong hộp điều kiện cho phép trang 41.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd07",
+    "passed": true,
+    "reason": "Đúng Industry 29%, năm 2050; location xác định đúng thanh biểu đồ trang 43.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd08",
+    "passed": false,
+    "reason": "So sánh định tính đúng nhưng thêm số Fossil CCS khoảng 0.8 không khớp thanh khoảng 0.5–0.6; không hỗ trợ đầy đủ mọi phát biểu.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd09",
+    "passed": true,
+    "reason": "Đúng hai đại lượng, đơn vị, gốc 1850 và 1850–1900; đọc đúng trục Figure 3.5(b).",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd10",
+    "passed": false,
+    "reason": "Nêu đúng danh sách và 3–6 lần nhưng tự mâu thuẫn khi vừa gọi bốn vừa nói chỉ ba ràng buộc; chưa đạt câu trả lời đúng và nhất quán.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd11",
+    "passed": true,
+    "reason": "Đúng ít nhất 18 quốc gia, hơn 10 năm và 3.2 [2.2–3.5]°C tới 2100; hai nguồn hỗ trợ.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd12",
+    "passed": true,
+    "reason": "Đủ lợi ích giảm lũ/nhiệt đô thị và không ngăn được sea-level rise nhiều thế kỷ; các số bổ sung khớp B.3.1.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd13",
+    "passed": true,
+    "reason": "Đúng early 2050s và early 2070s cùng các điều kiện kịch bản, source B.6.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd14",
+    "passed": true,
+    "reason": "Đúng 410 ppm/2019 và ít nhất 2 triệu năm, citation A.1.3; có đoạn đánh dấu định dạng thừa nhưng không thay đổi phát biểu thực tế.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd15",
+    "passed": false,
+    "reason": "Dùng cụm giảm xuống 40–70% thay vì giảm đi 40–70%, làm mơ hồ/sai hướng phần trăm còn lại; yêu cầu giữ đúng ý nghĩa định lượng.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd16",
+    "passed": true,
+    "reason": "Từ chối dữ kiện địa phương/năm không có trong báo cáo, không bịa số.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd17",
+    "passed": true,
+    "reason": "Từ chối GDP chính xác năm 2051 không được báo cáo.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  },
+  {
+    "query_id": "bd18",
+    "passed": true,
+    "reason": "Từ chối quan trắc 2025 trong báo cáo xuất bản 2023.",
+    "reviewer": "Codex (AI)",
+    "review_status": "ai_provisional",
+    "original_pdf_checked": true,
+    "trace_sha256": "b4bcdaf0d932833cd99e17284f7463e8909821950deb9713dce40467f91f52ec"
+  }
+]

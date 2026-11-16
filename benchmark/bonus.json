@@ -1,0 +1,942 @@
+[
+  {
+    "id": "bd01",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table SPM.1, for pathways limiting warming to 2°C (>67%), what is the median GHG reduction in 2040 and its 5–95 percentile interval, relative to 2019?",
+    "answerable": true,
+    "expected_answer": "46%, interval 34–63%.",
+    "gold": [
+      {
+        "page": 37,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.25
+        ],
+        "location": "Table SPM.1: 2°C GHG row, 2040 column"
+      }
+    ]
+  },
+  {
+    "id": "bd02",
+    "split": "dev",
+    "group": "table",
+    "question": "Read Table 2.2: what are the median and min–max 2030 global emissions for unconditional NDC elements announced before COP26? Include units.",
+    "answerable": true,
+    "expected_answer": "53 [50–57] GtCO2-eq/year.",
+    "gold": [
+      {
+        "page": 74,
+        "bbox": [
+          0.05,
+          0.36,
+          0.95,
+          0.85
+        ],
+        "location": "Table 2.2: Median projected global emissions, unconditional NDC column"
+      }
+    ]
+  },
+  {
+    "id": "bd03",
+    "split": "dev",
+    "group": "table",
+    "question": "In Box SPM.1 Table 1, how is category C8 described, including the probability qualifier?",
+    "answerable": true,
+    "expected_answer": "Exceed warming of 4°C (>50%).",
+    "gold": [
+      {
+        "page": 26,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.43
+        ],
+        "location": "Box SPM.1 Table 1, C8 row"
+      }
+    ]
+  },
+  {
+    "id": "bd04",
+    "split": "dev",
+    "group": "image",
+    "question": "In the generational schematic in Figure SPM.1(c), which three birth years are represented?",
+    "answerable": true,
+    "expected_answer": "1950, 1980, 2020.",
+    "gold": [
+      {
+        "page": 23,
+        "bbox": [
+          0.1,
+          0.49,
+          0.9,
+          0.83
+        ],
+        "location": "Figure SPM.1(c), generational icons"
+      }
+    ]
+  },
+  {
+    "id": "bd05",
+    "split": "dev",
+    "group": "image",
+    "question": "Looking at the four risk maps in Figure SPM.3(a), list the four global warming levels printed below the maps.",
+    "answerable": true,
+    "expected_answer": "1.5°C, 2.0°C, 3.0°C, 4.0°C.",
+    "gold": [
+      {
+        "page": 32,
+        "bbox": [
+          0.1,
+          0.08,
+          0.95,
+          0.34
+        ],
+        "location": "Figure SPM.3(a), map labels"
+      }
+    ]
+  },
+  {
+    "id": "bd06",
+    "split": "dev",
+    "group": "image",
+    "question": "In Figure SPM.6, name two conditions in the left-hand box that enable individual and collective action.",
+    "answerable": true,
+    "expected_answer": "Any two listed conditions, e.g. inclusive governance; finance and innovation.",
+    "gold": [
+      {
+        "page": 41,
+        "bbox": [
+          0.11,
+          0.13,
+          0.33,
+          0.36
+        ],
+        "location": "Figure SPM.6, left upper enabling-conditions box"
+      }
+    ]
+  },
+  {
+    "id": "bd07",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure SPM.7(b), what percentage demand-side reduction potential is annotated for Industry in 2050?",
+    "answerable": true,
+    "expected_answer": "29%.",
+    "gold": [
+      {
+        "page": 43,
+        "bbox": [
+          0.1,
+          0.73,
+          0.9,
+          0.88
+        ],
+        "location": "Figure SPM.7(b), Industry bar"
+      }
+    ]
+  },
+  {
+    "id": "bd08",
+    "split": "dev",
+    "group": "chart",
+    "question": "Compare the Solar and Fossil Carbon Capture and Storage bars in Figure SPM.7(a). Which has the greater total mitigation potential in 2030?",
+    "answerable": true,
+    "expected_answer": "Solar.",
+    "gold": [
+      {
+        "page": 43,
+        "bbox": [
+          0.45,
+          0.1,
+          0.9,
+          0.26
+        ],
+        "location": "Figure SPM.7(a), energy-supply bars"
+      }
+    ]
+  },
+  {
+    "id": "bd09",
+    "split": "dev",
+    "group": "chart",
+    "question": "Read both axes of Figure 3.5(b): what quantities and units are shown, and what baseline year/period is used?",
+    "answerable": true,
+    "expected_answer": "x: cumulative CO2 emissions in GtCO2 since 1850; y: warming in °C since 1850–1900.",
+    "gold": [
+      {
+        "page": 99,
+        "bbox": [
+          0.1,
+          0.46,
+          0.9,
+          0.83
+        ],
+        "location": "Figure 3.5(b), axis labels"
+      }
+    ]
+  },
+  {
+    "id": "bd10",
+    "split": "dev",
+    "group": "multihop",
+    "question": "Combine A.3.5 with Section 4.8.1: list the four constraints behind current soft adaptation limits, and the factor by which annual modelled mitigation investment needs for 2020–2030 exceed current levels.",
+    "answerable": true,
+    "expected_answer": "Financial, governance, institutional and policy constraints; mitigation investment needs are 3–6 times current levels.",
+    "gold": [
+      {
+        "page": 24,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.3.5"
+      },
+      {
+        "page": 127,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "Section 4.8.1, investment requirements"
+      }
+    ]
+  },
+  {
+    "id": "bd11",
+    "split": "dev",
+    "group": "multihop",
+    "question": "Combine A.4.1 and A.4.4: at least how many countries sustained emissions reductions for over 10 years, and what median 2100 warming is projected without strengthened policies?",
+    "answerable": true,
+    "expected_answer": "At least 18 countries; 3.2°C (range 2.2–3.5°C).",
+    "gold": [
+      {
+        "page": 26,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.4.1"
+      },
+      {
+        "page": 27,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.4.4"
+      }
+    ]
+  },
+  {
+    "id": "bd12",
+    "split": "dev",
+    "group": "multihop",
+    "question": "Use A.3.2 and B.3.1 together: what risks can ecosystem-based urban greening/wetland restoration reduce, and does limiting temperature stop sea-level rise over the next centuries?",
+    "answerable": true,
+    "expected_answer": "Reduce flood risks and urban heat; no, sea-level rise continues for centuries to millennia.",
+    "gold": [
+      {
+        "page": 24,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.3.2"
+      },
+      {
+        "page": 34,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "B.3.1"
+      }
+    ]
+  },
+  {
+    "id": "bd13",
+    "split": "dev",
+    "group": "text",
+    "question": "According to B.6, when is global net-zero CO2 reached in 1.5°C (>50%, no/limited overshoot) pathways and 2°C (>67%) pathways, respectively?",
+    "answerable": true,
+    "expected_answer": "Early 2050s and around early 2070s, respectively.",
+    "gold": [
+      {
+        "page": 36,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "B.6/B.6.1"
+      }
+    ]
+  },
+  {
+    "id": "bd14",
+    "split": "dev",
+    "group": "text",
+    "question": "According to A.1.3, what was atmospheric CO2 concentration in 2019, and how far back must one go to find concentrations this high?",
+    "answerable": true,
+    "expected_answer": "410 ppm; higher than at any time in at least 2 million years.",
+    "gold": [
+      {
+        "page": 20,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.1.3"
+      }
+    ]
+  },
+  {
+    "id": "bd15",
+    "split": "dev",
+    "group": "text",
+    "question": "In Section 4.5, what range of global end-use-sector GHG reductions can demand-side measures provide by 2050 relative to baseline scenarios?",
+    "answerable": true,
+    "expected_answer": "40–70%.",
+    "gold": [
+      {
+        "page": 118,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "Section 4.5, demand-side measures"
+      }
+    ]
+  },
+  {
+    "id": "bt01",
+    "split": "test",
+    "group": "table",
+    "question": "In Table SPM.1, for 1.5°C (>50%) pathways with no or limited overshoot, give the median GHG reduction in 2030 and the 5–95 percentile interval relative to 2019.",
+    "answerable": true,
+    "expected_answer": "43% [34–60%].",
+    "gold": [
+      {
+        "page": 37,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.25
+        ],
+        "location": "Table SPM.1, 1.5°C GHG row, 2030 column"
+      }
+    ]
+  },
+  {
+    "id": "bt02",
+    "split": "test",
+    "group": "table",
+    "question": "Read Table SPM.1: for 2°C (>67%) pathways, what are the median and 5–95 percentile CO2 reductions in 2050 relative to 2019?",
+    "answerable": true,
+    "expected_answer": "73% [55–90%].",
+    "gold": [
+      {
+        "page": 37,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.25
+        ],
+        "location": "Table SPM.1, 2°C CO2 row, 2050 column"
+      }
+    ]
+  },
+  {
+    "id": "bt03",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 2.2, give the median and min–max global emissions in 2030 implied by policies implemented by the end of 2020, including units.",
+    "answerable": true,
+    "expected_answer": "57 [52–60] GtCO2-eq/year.",
+    "gold": [
+      {
+        "page": 74,
+        "bbox": [
+          0.05,
+          0.36,
+          0.95,
+          0.85
+        ],
+        "location": "Table 2.2, first data row, implemented-policies column"
+      }
+    ]
+  },
+  {
+    "id": "bt04",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 2.2, what is the emissions gap between conditional NDCs and 1.5°C (>50%, no/limited overshoot) pathways with immediate action? Include units.",
+    "answerable": true,
+    "expected_answer": "16–23 GtCO2-eq/year.",
+    "gold": [
+      {
+        "page": 74,
+        "bbox": [
+          0.05,
+          0.36,
+          0.95,
+          0.85
+        ],
+        "location": "Table 2.2, last row, including conditional elements column"
+      }
+    ]
+  },
+  {
+    "id": "bt05",
+    "split": "test",
+    "group": "table",
+    "question": "In Box SPM.1 Table 1, give the complete description of category C1, including probability and overshoot.",
+    "answerable": true,
+    "expected_answer": "Limit warming to 1.5°C (>50%) with no or limited overshoot.",
+    "gold": [
+      {
+        "page": 26,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.43
+        ],
+        "location": "Box SPM.1 Table 1, C1 row"
+      }
+    ]
+  },
+  {
+    "id": "bt06",
+    "split": "test",
+    "group": "table",
+    "question": "In Box SPM.1 Table 1, what temperature limit and probability describe category C6?",
+    "answerable": true,
+    "expected_answer": "Limit warming to 3°C (>50%).",
+    "gold": [
+      {
+        "page": 26,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.43
+        ],
+        "location": "Box SPM.1 Table 1, C6 row"
+      }
+    ]
+  },
+  {
+    "id": "bt07",
+    "split": "test",
+    "group": "image",
+    "question": "In the upper green outcome circle of Figure SPM.6, what labels describe emissions and climate risk?",
+    "answerable": true,
+    "expected_answer": "Low emissions and low climate risk.",
+    "gold": [
+      {
+        "page": 41,
+        "bbox": [
+          0.69,
+          0.16,
+          0.9,
+          0.31
+        ],
+        "location": "Figure SPM.6, upper green outcome circle"
+      }
+    ]
+  },
+  {
+    "id": "bt08",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure SPM.6, what does the lightning-like shock symbol represent, according to its legend?",
+    "answerable": true,
+    "expected_answer": "An illustrative shock that disrupts development.",
+    "gold": [
+      {
+        "page": 41,
+        "bbox": [
+          0.72,
+          0.43,
+          0.93,
+          0.48
+        ],
+        "location": "Figure SPM.6, shock symbol legend"
+      }
+    ]
+  },
+  {
+    "id": "bt09",
+    "split": "test",
+    "group": "image",
+    "question": "In the key of Figure SPM.1(a), what does the diagonally striped red-and-green circle mean?",
+    "answerable": true,
+    "expected_answer": "Adverse and positive impacts.",
+    "gold": [
+      {
+        "page": 23,
+        "bbox": [
+          0.64,
+          0.13,
+          0.88,
+          0.33
+        ],
+        "location": "Figure SPM.1(a), icon key"
+      }
+    ]
+  },
+  {
+    "id": "bt10",
+    "split": "test",
+    "group": "image",
+    "question": "In the pathway diagram of Figure SPM.6, what is the rightmost time label on the horizontal axis?",
+    "answerable": true,
+    "expected_answer": "2100 and beyond.",
+    "gold": [
+      {
+        "page": 41,
+        "bbox": [
+          0.62,
+          0.42,
+          0.74,
+          0.48
+        ],
+        "location": "Figure SPM.6, right end of horizontal time axis"
+      }
+    ]
+  },
+  {
+    "id": "bt11",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure SPM.1(b), name the two observed changes placed in the Virtually certain group.",
+    "answerable": true,
+    "expected_answer": "Upper ocean acidification and increase in hot extremes.",
+    "gold": [
+      {
+        "page": 23,
+        "bbox": [
+          0.48,
+          0.38,
+          0.63,
+          0.49
+        ],
+        "location": "Figure SPM.1(b), rightmost two icons"
+      }
+    ]
+  },
+  {
+    "id": "bt12",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure SPM.7(b), which sector has the largest annotated percentage reduction before additional electrification, and what is that percentage?",
+    "answerable": true,
+    "expected_answer": "Electricity, 73% before additional electrification.",
+    "gold": [
+      {
+        "page": 43,
+        "bbox": [
+          0.1,
+          0.73,
+          0.9,
+          0.88
+        ],
+        "location": "Figure SPM.7(b), Electricity bar"
+      }
+    ]
+  },
+  {
+    "id": "bt13",
+    "split": "test",
+    "group": "chart",
+    "question": "Using the labelled percentages in Figure SPM.7(b), how many percentage points higher is Buildings demand-side reduction potential than Food? Show both values.",
+    "answerable": true,
+    "expected_answer": "Buildings 66%, Food 44%, difference 22 percentage points.",
+    "gold": [
+      {
+        "page": 43,
+        "bbox": [
+          0.1,
+          0.73,
+          0.9,
+          0.88
+        ],
+        "location": "Figure SPM.7(b), Buildings and Food bars"
+      }
+    ]
+  },
+  {
+    "id": "bt14",
+    "split": "test",
+    "group": "chart",
+    "question": "Read the historical bar in Figure 3.5(a). Approximately how much cumulative CO2 was emitted in 1850–2019? Include units; allow graphical reading within ±100 GtCO2.",
+    "answerable": true,
+    "expected_answer": "Approximately 2400 GtCO2 (acceptable 2300–2500 for graph reading).",
+    "gold": [
+      {
+        "page": 99,
+        "bbox": [
+          0.11,
+          0.16,
+          0.85,
+          0.29
+        ],
+        "location": "Figure 3.5(a), historical emissions bar"
+      }
+    ]
+  },
+  {
+    "id": "bt15",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 3.5(a), compare remaining carbon budgets since 2020 for 1.5°C (>50%) and 2°C (>67%). Read approximate central values from the axis, within ±50 GtCO2.",
+    "answerable": true,
+    "expected_answer": "About 500 GtCO2 and 1150 GtCO2 respectively; the 2°C (>67%) budget is larger.",
+    "gold": [
+      {
+        "page": 99,
+        "bbox": [
+          0.11,
+          0.16,
+          0.85,
+          0.36
+        ],
+        "location": "Figure 3.5(a), 1.5°C and 2°C (67%) remaining-budget bars"
+      }
+    ]
+  },
+  {
+    "id": "bt16",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 3.5(b), which labelled SSP scenario lies furthest to the right, representing the largest cumulative CO2 emissions by 2050?",
+    "answerable": true,
+    "expected_answer": "SSP5-8.5.",
+    "gold": [
+      {
+        "page": 99,
+        "bbox": [
+          0.1,
+          0.46,
+          0.9,
+          0.83
+        ],
+        "location": "Figure 3.5(b), upper right scenario labels"
+      }
+    ]
+  },
+  {
+    "id": "bt17",
+    "split": "test",
+    "group": "multihop",
+    "question": "Combine A.1.1 and Table SPM.1: calculate the difference between central land and ocean warming in 2011–2020 relative to 1850–1900, and give the median GHG reduction by 2050 for 2°C (>67%) pathways.",
+    "answerable": true,
+    "expected_answer": "1.59−0.88=0.71°C; GHG reduction 64% by 2050 relative to 2019.",
+    "gold": [
+      {
+        "page": 20,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.1.1"
+      },
+      {
+        "page": 37,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.25
+        ],
+        "location": "Table SPM.1, 2°C GHG row, 2050 column"
+      }
+    ]
+  },
+  {
+    "id": "bt18",
+    "split": "test",
+    "group": "multihop",
+    "question": "For an illustrative arithmetic exercise, combine the central 2019 GHG estimate in A.1.4 with the 2030 median percentage reduction for 1.5°C pathways in Table SPM.1. What emissions remain? State that this is a calculation using the observed estimate, not the harmonised model projection.",
+    "answerable": true,
+    "expected_answer": "59×(1−0.43)=33.63 GtCO2-eq/year, illustrative only; observed 2019 estimate differs from harmonised model baselines.",
+    "gold": [
+      {
+        "page": 20,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.1.4"
+      },
+      {
+        "page": 37,
+        "bbox": [
+          0.06,
+          0.03,
+          0.94,
+          0.25
+        ],
+        "location": "Table SPM.1, 1.5°C GHG row, 2030 column"
+      }
+    ]
+  },
+  {
+    "id": "bt19",
+    "split": "test",
+    "group": "multihop",
+    "question": "Use A.2.1 and B.3.1: state the observed mean sea-level rise rate in 2006–2018, then the likely 2100 rise range under SSP1-1.9, keeping their different reference periods and units.",
+    "answerable": true,
+    "expected_answer": "3.7 [3.2–4.2] mm/year in 2006–2018; 0.28–0.55 m by 2100 relative to 1995–2014 under SSP1-1.9.",
+    "gold": [
+      {
+        "page": 21,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.2.1"
+      },
+      {
+        "page": 34,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "B.3.1"
+      }
+    ]
+  },
+  {
+    "id": "bt20",
+    "split": "test",
+    "group": "multihop",
+    "question": "Combine A.4.2 and Figure SPM.7(b): how much more did solar unit costs fall than wind costs in 2010–2019 (percentage points), and what percentage demand-side potential is shown for Land transport in 2050?",
+    "answerable": true,
+    "expected_answer": "Solar fell 85%, wind 55%, difference 30 percentage points; Land transport 67%.",
+    "gold": [
+      {
+        "page": 27,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.4.2 continuation: technology costs"
+      },
+      {
+        "page": 43,
+        "bbox": [
+          0.1,
+          0.73,
+          0.9,
+          0.88
+        ],
+        "location": "Figure SPM.7(b), Land transport bar"
+      }
+    ]
+  },
+  {
+    "id": "bt21",
+    "split": "test",
+    "group": "text",
+    "question": "According to A.1.5, what shares of consumption-based household GHG emissions come from the top 10% and bottom 50% of households ranked by per-capita emissions?",
+    "answerable": true,
+    "expected_answer": "Top 10%: 34–45%; bottom 50%: 13–15%.",
+    "gold": [
+      {
+        "page": 21,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.1.5"
+      }
+    ]
+  },
+  {
+    "id": "bt22",
+    "split": "test",
+    "group": "text",
+    "question": "According to A.2.2, approximately how many people live in contexts highly vulnerable to climate change?",
+    "answerable": true,
+    "expected_answer": "3.3–3.6 billion people.",
+    "gold": [
+      {
+        "page": 21,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.2.2"
+      }
+    ]
+  },
+  {
+    "id": "bt23",
+    "split": "test",
+    "group": "text",
+    "question": "In A.3.1, at least how many countries include adaptation in climate policies and planning processes?",
+    "answerable": true,
+    "expected_answer": "At least 170 countries.",
+    "gold": [
+      {
+        "page": 24,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "A.3.1"
+      }
+    ]
+  },
+  {
+    "id": "bt24",
+    "split": "test",
+    "group": "text",
+    "question": "According to B.6.2, by what median percentage and interval do 1.5°C (>50%, no/limited overshoot) pathways reduce global methane emissions by 2030 relative to 2019?",
+    "answerable": true,
+    "expected_answer": "34% [21–57%].",
+    "gold": [
+      {
+        "page": 37,
+        "bbox": [
+          0.05,
+          0.04,
+          0.95,
+          0.93
+        ],
+        "location": "B.6.2 below Table SPM.1"
+      }
+    ]
+  },
+  {
+    "id": "bd16",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What exact annual average rainfall in millimetres does this report project for Da Nang city in 2047?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No city-specific annual rainfall projection for Da Nang in 2047.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bd17",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What exact global GDP in USD does the report predict for the calendar year 2051?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No exact calendar-year 2051 global GDP prediction.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bd18",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What measured global average temperature for calendar year 2025 is reported in this 2023 document?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No observed calendar-year 2025 global-temperature measurement in this 2023 report.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bt25",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What exact 2031 CO2 emissions total in tonnes does this report forecast for Viet Nam?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No exact national 2031 total for Viet Nam.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bt26",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What exact 2050 flood-water depth in metres does the report give for District 7, Ho Chi Minh City?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No District 7 specific flood-depth value for 2050.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bt27",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What exact rainfall total in millimetres does the report give for Hanoi in 2037?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No Hanoi 2037 rainfall total.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bt28",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What exact median 2100 global warming is reported for a scenario named SSP6-12.0?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "This named scenario is not provided in the report.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bt29",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "In Table SPM.1, what exact 2032 median GHG reduction is explicitly tabulated for 1.5°C pathways? Do not interpolate.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No 2032 column; 2030, 2035, 2040 and 2050 are tabulated.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  },
+  {
+    "id": "bt30",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What street address does the report specify as the evacuation destination for residents of Hue during a 2050 climate flood?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No street-level evacuation destination in Hue for a 2050 flood.",
+    "absence_check": "Review full-document text index and subject scope, not just top-k results; original PDF remains available for verification."
+  }
+]

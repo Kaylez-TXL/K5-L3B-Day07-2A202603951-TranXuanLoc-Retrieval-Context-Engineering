@@ -1,0 +1,38 @@
+{
+  "title": "Climate Change 2023: Synthesis Report",
+  "publisher": "IPCC",
+  "year": 2023,
+  "source_url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+  "landing_page": "https://www.ipcc.ch/report/sixth-assessment-report-cycle/2023/",
+  "permission_url": "https://www.ipcc.ch/copyright/",
+  "usage": "Personal non-commercial study. Full PDF/index kept local; submission provides source and reproduction commands. Short evidence excerpts and page/region references are attributed to IPCC.",
+  "pdf_sha256": "f5258cf9434fd8887848e334197b6397ad6e107a6f06ddf21a00b2bce3f5dee6",
+  "physical_pages": 186,
+  "printed_report_pages": 184,
+  "indexed_pages": 186,
+  "text_chunks": 1217,
+  "empty_text_pages": [
+    2,
+    6,
+    12,
+    18,
+    52,
+    134
+  ],
+  "image_policy": "Every original page can be rendered on demand, including empty-text pages. Vision reads original page/crop, not gold crops or generated captions.",
+  "unprocessed": "No manual OCR/layout correction; charts/tables remain available through original-page vision. No page excluded from the index.",
+  "embedding": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "dimensions": 384,
+    "normalization": "L2",
+    "query_prefix": "query: ",
+    "document_prefix": "passage: "
+  },
+  "chunking": {
+    "characters": 700,
+    "stride": 580
+  },
+  "embedding_seconds": 62.70569549999982,
+  "vectors_sha256": "e3da0c6424b2f04abd56ee9b7fb79f143ad391a4f13810cd7d84c13e9907f629"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "query_id": "day7-t01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "source_support_assessment": "full",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Suy từ đánh giá nguồn ở cấp câu hỏi của tác giả: hỗ trợ được. Chỉ hỗ trợ đầy đủ được tính true trong metric nhị phân."
+    ],
+    "abstention_correct": null,
+    "reason": "Tác giả cung cấp trong chat: answer=2/2, context=2/2, nguồn hỗ trợ được. Giữ nguyên điểm tác giả, không thay bằng nhãn AI.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "confirmation_source": "Explicit grades in chat, 2026-11-16",
+    "citation_label_origin": "Derived conservatively from author case-level source judgment; no final citations added",
+    "trace_sha256": "aefc43f54237b8329459fab96b26ce22f55be9a01b42a145f7fbd32a628dc3cc"
+  },
+  {
+    "query_id": "day7-t02",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "source_support_assessment": "partial",
+    "citation_support": [
+      false
+    ],
+    "citation_reasons": [
+      "Suy từ đánh giá nguồn ở cấp câu hỏi của tác giả: hỗ trợ một phần. Chỉ hỗ trợ đầy đủ được tính true trong metric nhị phân."
+    ],
+    "abstention_correct": null,
+    "reason": "Tác giả cung cấp trong chat: answer=1/2, context=1/2, nguồn hỗ trợ một phần. Giữ nguyên điểm tác giả, không thay bằng nhãn AI.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "confirmation_source": "Explicit grades in chat, 2026-11-16",
+    "citation_label_origin": "Derived conservatively from author case-level source judgment; no final citations added",
+    "trace_sha256": "aefc43f54237b8329459fab96b26ce22f55be9a01b42a145f7fbd32a628dc3cc"
+  },
+  {
+    "query_id": "day7-t03",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "source_support_assessment": "none",
+    "citation_support": [],
+    "citation_reasons": [],
+    "abstention_correct": null,
+    "reason": "Tác giả cung cấp trong chat: answer=0/2, context=0/2, nguồn không hỗ trợ. Giữ nguyên điểm tác giả, không thay bằng nhãn AI.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "confirmation_source": "Explicit grades in chat, 2026-11-16",
+    "citation_label_origin": "Derived conservatively from author case-level source judgment; no final citations added",
+    "trace_sha256": "aefc43f54237b8329459fab96b26ce22f55be9a01b42a145f7fbd32a628dc3cc"
+  },
+  {
+    "query_id": "day7-t04",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "source_support_assessment": "none",
+    "citation_support": [
+      false
+    ],
+    "citation_reasons": [
+      "Suy từ đánh giá nguồn ở cấp câu hỏi của tác giả: không hỗ trợ. Chỉ hỗ trợ đầy đủ được tính true trong metric nhị phân."
+    ],
+    "abstention_correct": null,
+    "reason": "Tác giả cung cấp trong chat: answer=0/2, context=0/2, nguồn không hỗ trợ. Giữ nguyên điểm tác giả, không thay bằng nhãn AI.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "confirmation_source": "Explicit grades in chat, 2026-11-16",
+    "citation_label_origin": "Derived conservatively from author case-level source judgment; no final citations added",
+    "trace_sha256": "aefc43f54237b8329459fab96b26ce22f55be9a01b42a145f7fbd32a628dc3cc"
+  },
+  {
+    "query_id": "day7-t05",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "source_support_assessment": "none",
+    "citation_support": [],
+    "citation_reasons": [],
+    "abstention_correct": null,
+    "reason": "Tác giả cung cấp trong chat: answer=0/2, context=0/2, nguồn không hỗ trợ. Giữ nguyên điểm tác giả, không thay bằng nhãn AI.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "confirmation_source": "Explicit grades in chat, 2026-11-16",
+    "citation_label_origin": "Derived conservatively from author case-level source judgment; no final citations added",
+    "trace_sha256": "aefc43f54237b8329459fab96b26ce22f55be9a01b42a145f7fbd32a628dc3cc"
+  },
+  {
+    "query_id": "day7-u03",
+    "answer_grade": null,
+    "context_grade": null,
+    "source_support_assessment": "not_applicable",
+    "citation_support": [],
+    "citation_reasons": [],
+    "abstention_correct": true,
+    "reason": "Tác giả xác nhận trong chat: abstention_correct=true cho câu thiếu bằng chứng này.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "confirmation_source": "Explicit grades in chat, 2026-11-16",
+    "citation_label_origin": "Derived conservatively from author case-level source judgment; no final citations added",
+    "trace_sha256": "aefc43f54237b8329459fab96b26ce22f55be9a01b42a145f7fbd32a628dc3cc"
+  },
+  {
+    "query_id": "day7-u04",
+    "answer_grade": null,
+    "context_grade": null,
+    "source_support_assessment": "not_applicable",
+    "citation_support": [],
+    "citation_reasons": [],
+    "abstention_correct": true,
+    "reason": "Tác giả xác nhận trong chat: abstention_correct=true cho câu thiếu bằng chứng này.",
+    "reviewer": "Trần Xuân Lộc",
+    "review_status": "human_confirmed",
+    "confirmation_source": "Explicit grades in chat, 2026-11-16",
+    "citation_label_origin": "Derived conservatively from author case-level source judgment; no final citations added",
+    "trace_sha256": "aefc43f54237b8329459fab96b26ce22f55be9a01b42a145f7fbd32a628dc3cc"
+  }
+]

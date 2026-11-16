@@ -2,6 +2,8 @@
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
+> **Bài làm Trần Xuân Lộc — 2A202603951:** [cách chạy](docs/RUNNING.md) · [báo cáo](report/individual/2A202603951_TranXuanLoc.md). Code phần cơ bản dùng Anthropic Haiku 5.5, E5/pgvector Day 6, TF-IDF và hybrid RRF. Benchmark cơ bản ở `benchmark/questions.json`; benchmark nâng cao ở `benchmark/bonus.json`. Các yêu cầu đề bài gốc nằm bên dưới.
+
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.

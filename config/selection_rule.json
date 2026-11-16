@@ -1,0 +1,6 @@
+{
+  "split": "dev",
+  "rule_order": ["maximize agent final-context complete evidence count", "maximize correct-status decisions on answerable/unanswerable cases (a behavior proxy, not grounded answer grading)", "maximize original-query Evidence Hit@3", "minimize estimated API USD", "minimize total elapsed milliseconds", "configuration name for deterministic last tie"],
+  "eligibility": "All 17 dev cases completed without provider/runtime errors; same benchmark, corpus and agent prompt hashes.",
+  "metrics_note": "Exact whitespace-normalized evidence proxy; semantic answer/citation labels must be reviewed separately. No test results used for selection."
+}

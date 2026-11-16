@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
+tmp/
 .env
 .env.*
 !.env.example
@@ -9,3 +10,11 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Bonus source and derived full-document index are recreated from the public URL.
+data/bonus/source.pdf
+data/bonus/pages.json
+data/bonus/vectors.npz
+# Full source context stays local; trace.json retains reproducible page/region pointers.
+results/bonus/**/records.json
+results/bonus/dev/setup-errors.json

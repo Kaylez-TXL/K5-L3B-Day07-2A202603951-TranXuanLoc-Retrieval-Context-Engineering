@@ -1,0 +1,1581 @@
+{
+  "source_records_sha256": "9fb7f717dadb9a1ea26a16235a3e9a346c2f240c2070422c3a7e2378f5fba9ee",
+  "data": {
+    "manifest": {
+      "split": "dev",
+      "preset": "compact",
+      "config": {
+        "top_k": 6,
+        "max_calls": 7,
+        "max_views": 3,
+        "edge": 1200
+      },
+      "model": "claude-haiku-5-5",
+      "benchmark_sha256": "807435fa48c527ee7dbb4ea7e349f22153b96baa0bbc193d1a541487eded7fd3",
+      "code_sha256": "c00fd6f4cb0744e3b4d3873653ea3e995853d016026c411319ec69c3a7444a72",
+      "source_sha256": "f5258cf9434fd8887848e334197b6397ad6e107a6f06ddf21a00b2bce3f5dee6",
+      "query_ids": [
+        "bd01",
+        "bd02",
+        "bd03",
+        "bd04",
+        "bd05",
+        "bd06",
+        "bd07",
+        "bd08",
+        "bd09",
+        "bd10",
+        "bd11",
+        "bd12",
+        "bd13",
+        "bd14",
+        "bd15",
+        "bd16",
+        "bd17",
+        "bd18"
+      ]
+    },
+    "records": [
+      {
+        "question": "In Table SPM.1, for pathways limiting warming to 2°C (>67%), what is the median GHG reduction in 2040 and its 5–95 percentile interval, relative to 2019?",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Table SPM.1 pathways limiting warming to 2°C (>67%) GHG emissions reductions 2040 relative to 2019",
+            "results": [
+              {
+                "page": 108,
+                "score": 0.03252247488101534,
+                "chunk_id": "ipcc:p108:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 2,
+                  "tfidf": 1
+                },
+                "text_ref": {
+                  "sha256": "f79b0946c91e40a55347914c86022ce15a2b22507043cbdf558210a6b189c965",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 4180
+                }
+              },
+              {
+                "page": 109,
+                "score": 0.03252247488101534,
+                "chunk_id": "ipcc:p109:c00000",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 2
+                },
+                "text_ref": {
+                  "sha256": "55639695e3eca1f4bdb24f1d205d0387f934741f0cdbfbef433981a4e8395132",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 0,
+                  "char_end": 700
+                }
+              },
+              {
+                "page": 75,
+                "score": 0.03125763125763126,
+                "chunk_id": "ipcc:p075:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 5,
+                  "tfidf": 3
+                },
+                "text_ref": {
+                  "sha256": "c92eaa87cc8cb6b222539968b5a5db0eebc0bb5eb5829e9daca6869e3361aae4",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 36,
+                "score": 0.030309988518943745,
+                "chunk_id": "ipcc:p036:c01740",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 7,
+                  "tfidf": 5
+                },
+                "text_ref": {
+                  "sha256": "03c31ce4ff80b1b1f071c7b9f1ebb3839029dd6b2cc855afab53ed891003eacc",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1740,
+                  "char_end": 2440
+                }
+              },
+              {
+                "page": 102,
+                "score": 0.02862400327131466,
+                "chunk_id": "ipcc:p102:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 13,
+                  "tfidf": 7
+                },
+                "text_ref": {
+                  "sha256": "c861dd4d7eb5f1e5b574276c1602ce7e1cbda6157258a2561921ae344c0e1d77",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 101,
+                "score": 0.02817460317460317,
+                "chunk_id": "ipcc:p101:c01740",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 12,
+                  "tfidf": 10
+                },
+                "text_ref": {
+                  "sha256": "b39cacc164f82699fa759c7f343ba3b538bb2253b2fb0e378d96e2af95da542c",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1740,
+                  "char_end": 2440
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z7hM2na7XqEyzFCXTq",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_01Aa58eMkERCdxk8vQsxkivt",
+                "name": "search",
+                "input": {
+                  "query": "Table SPM.1 pathways limiting warming to 2°C (>67%) GHG emissions reductions 2040 relative to 2019"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1358,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 74,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 4228.205500000513
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.0001728,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z7zWeTYYNX8gAwg428"
+        },
+        "elapsed_ms": 4831.125900000188,
+        "transport_events": [],
+        "query_id": "bd01",
+        "group": "table",
+        "answerable": true
+      },
+      {
+        "question": "Read Table 2.2: what are the median and min–max 2030 global emissions for unconditional NDC elements announced before COP26? Include units.",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Table 2.2 unconditional NDC elements announced before COP26 2030 global emissions median range",
+            "results": [
+              {
+                "page": 73,
+                "score": 0.03252247488101534,
+                "chunk_id": "ipcc:p073:c02320",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 2,
+                  "tfidf": 1
+                },
+                "text_ref": {
+                  "sha256": "971d561cd3aae6dc34e61856701db4701e444aab620d133788a0f05002ed795e",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 2320,
+                  "char_end": 3020
+                }
+              },
+              {
+                "page": 27,
+                "score": 0.03177805800756621,
+                "chunk_id": "ipcc:p027:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 5
+                },
+                "text_ref": {
+                  "sha256": "bf9e8b629107aef6ab3bb1090d7b2e5f4539516c6c5032ef16ea305b9086b98a",
+                  "characters": 542,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 4022
+                }
+              },
+              {
+                "page": 74,
+                "score": 0.03149801587301587,
+                "chunk_id": "ipcc:p074:c01740",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 4,
+                  "tfidf": 3
+                },
+                "text_ref": {
+                  "sha256": "3cfe247f576844f879ecc33431483f8b6c6685d1de7229353fa15f0a244ba8e6",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1740,
+                  "char_end": 2440
+                }
+              },
+              {
+                "page": 75,
+                "score": 0.02964426877470356,
+                "chunk_id": "ipcc:p075:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 6,
+                  "tfidf": 9
+                },
+                "text_ref": {
+                  "sha256": "c92eaa87cc8cb6b222539968b5a5db0eebc0bb5eb5829e9daca6869e3361aae4",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 108,
+                "score": 0.027432808155699723,
+                "chunk_id": "ipcc:p108:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 5,
+                  "tfidf": 23
+                },
+                "text_ref": {
+                  "sha256": "10d179cb480005958d73881b7281665ace3ce73971ac91a6f6761e9eb6058a34",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4760
+                }
+              },
+              {
+                "page": 38,
+                "score": 0.023581634068525453,
+                "chunk_id": "ipcc:p038:c00580",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 29,
+                  "tfidf": 21
+                },
+                "text_ref": {
+                  "sha256": "5b1b36e29df4fa3fb14faaa2794f84ecc620bad3e8c40a5d8f3c214f4d27e8a4",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 580,
+                  "char_end": 1280
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z834gPHMipNb9CA3Ce",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_01F85wi9L6srPuJFn9Hzfi9f",
+                "name": "search",
+                "input": {
+                  "query": "Table 2.2 unconditional NDC elements announced before COP26 2030 global emissions median range"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1341,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 61,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 2671.2900000002264
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.0001646,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z8EN5mqQwybS3hh6pw"
+        },
+        "elapsed_ms": 3236.8155000003753,
+        "transport_events": [],
+        "query_id": "bd02",
+        "group": "table",
+        "answerable": true
+      },
+      {
+        "question": "In Box SPM.1 Table 1, how is category C8 described, including the probability qualifier?",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Box SPM.1 Table 1 C8 category",
+            "results": [
+              {
+                "page": 112,
+                "score": 0.027757078986587184,
+                "chunk_id": "ipcc:p112:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 28
+                },
+                "text_ref": {
+                  "sha256": "56ee1ce63eb42d38690bc87d6f05a7905836461b056ffba8f932ddf832b0f0ec",
+                  "characters": 406,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4466
+                }
+              },
+              {
+                "page": 113,
+                "score": 0.027051561365286855,
+                "chunk_id": "ipcc:p113:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 8,
+                  "tfidf": 21
+                },
+                "text_ref": {
+                  "sha256": "0c8971dbc7b917d384e6243b08fdaabb705662aa43ed4c4aff22283f0357dd2b",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 4180
+                }
+              },
+              {
+                "page": 26,
+                "score": 0.0266900790166813,
+                "chunk_id": "ipcc:p026:c00000",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 25,
+                  "tfidf": 7
+                },
+                "text_ref": {
+                  "sha256": "d9fed11380733206e8978501417277ce1be9b598fe75b127e1a3a02059ea032a",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 0,
+                  "char_end": 700
+                }
+              },
+              {
+                "page": 105,
+                "score": 0.02625745950554135,
+                "chunk_id": "ipcc:p105:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 9,
+                  "tfidf": 25
+                },
+                "text_ref": {
+                  "sha256": "8a4b031aafb354ffa4439d4d6a66c5e55c10cab5545731f285216296284aafe4",
+                  "characters": 59,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4119
+                }
+              },
+              {
+                "page": 103,
+                "score": 0.0261986301369863,
+                "chunk_id": "ipcc:p103:c06380",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 20,
+                  "tfidf": 13
+                },
+                "text_ref": {
+                  "sha256": "97a74b280c991afb94629167f57442becd02b1862046beace89f42a573930974",
+                  "characters": 204,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 6380,
+                  "char_end": 6584
+                }
+              },
+              {
+                "page": 129,
+                "score": 0.026021080368906456,
+                "chunk_id": "ipcc:p129:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 32,
+                  "tfidf": 6
+                },
+                "text_ref": {
+                  "sha256": "ae141240265aa42b21ba8a47ceba11c9a9ec6a57aa151f5ee1bc7b5fbfdbdc47",
+                  "characters": 36,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4096
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z8H7XiDBeGwyyYbLqt",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_01JknXCcG2W4bsD1v6hTMmwG",
+                "name": "search",
+                "input": {
+                  "query": "Box SPM.1 Table 1 C8 category"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1326,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 46,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 2324.9717000007877
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.0001556,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z8SrQwMnfjR3mCDoUD"
+        },
+        "elapsed_ms": 2904.3612999994366,
+        "transport_events": [],
+        "query_id": "bd03",
+        "group": "table",
+        "answerable": true
+      },
+      {
+        "question": "In the generational schematic in Figure SPM.1(c), which three birth years are represented?",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Figure SPM.1 generational schematic birth years",
+            "results": [
+              {
+                "page": 90,
+                "score": 0.029906956136464335,
+                "chunk_id": "ipcc:p090:c02900",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 14
+                },
+                "text_ref": {
+                  "sha256": "bf922ad9ad51869ec121501d4f54424b5e381e65bc327c5c90973b4c7b9fae48",
+                  "characters": 117,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 2900,
+                  "char_end": 3017
+                }
+              },
+              {
+                "page": 113,
+                "score": 0.029631255487269532,
+                "chunk_id": "ipcc:p113:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 7,
+                  "tfidf": 8
+                },
+                "text_ref": {
+                  "sha256": "0c8971dbc7b917d384e6243b08fdaabb705662aa43ed4c4aff22283f0357dd2b",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 4180
+                }
+              },
+              {
+                "page": 24,
+                "score": 0.029551337359792925,
+                "chunk_id": "ipcc:p024:c00580",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 16,
+                  "tfidf": 1
+                },
+                "text_ref": {
+                  "sha256": "c0de5b5cb410be1ba845e3dac71a28686f550a45c00bd27ef2d23cc1fe385145",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 580,
+                  "char_end": 1280
+                }
+              },
+              {
+                "page": 105,
+                "score": 0.02662057044079516,
+                "chunk_id": "ipcc:p105:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 5,
+                  "tfidf": 29
+                },
+                "text_ref": {
+                  "sha256": "8a4b031aafb354ffa4439d4d6a66c5e55c10cab5545731f285216296284aafe4",
+                  "characters": 59,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4119
+                }
+              },
+              {
+                "page": 66,
+                "score": 0.026289682539682536,
+                "chunk_id": "ipcc:p066:c08700",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 3,
+                  "tfidf": 36
+                },
+                "text_ref": {
+                  "sha256": "d3e0a6d5c9c729c94e0a0af251e03658d97cdd8350c7ffb9089a6c589d8ec200",
+                  "characters": 99,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 8700,
+                  "char_end": 8799
+                }
+              },
+              {
+                "page": 112,
+                "score": 0.02535559678416821,
+                "chunk_id": "ipcc:p112:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 6,
+                  "tfidf": 38
+                },
+                "text_ref": {
+                  "sha256": "56ee1ce63eb42d38690bc87d6f05a7905836461b056ffba8f932ddf832b0f0ec",
+                  "characters": 406,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4466
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z8VPiCQhKVucRYkZRc",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_01QxUBArxjq2QESZyKhTzqZJ",
+                "name": "search",
+                "input": {
+                  "query": "Figure SPM.1 generational schematic birth years"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1323,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 46,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 1300.560300000143
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.0001553,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z8aoec3iu1fXQQFdaY"
+        },
+        "elapsed_ms": 1858.880599999793,
+        "transport_events": [],
+        "query_id": "bd04",
+        "group": "image",
+        "answerable": true
+      },
+      {
+        "question": "Looking at the four risk maps in Figure SPM.3(a), list the four global warming levels printed below the maps.",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Figure SPM.3 risk maps global warming levels",
+            "results": [
+              {
+                "page": 87,
+                "score": 0.031544957774465976,
+                "chunk_id": "ipcc:p087:c00580",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 6
+                },
+                "text_ref": {
+                  "sha256": "2c5a020ee2cfa898a19511ef0d461f7c2497fc73fe41829e7606bbcf5705b707",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 580,
+                  "char_end": 1280
+                }
+              },
+              {
+                "page": 86,
+                "score": 0.030309988518943745,
+                "chunk_id": "ipcc:p086:c02320",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 5,
+                  "tfidf": 7
+                },
+                "text_ref": {
+                  "sha256": "d81b787e4b99e093555d6a0a691bf815039b1b8868008e95c5e42c9bb20cb353",
+                  "characters": 228,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 2320,
+                  "char_end": 2548
+                }
+              },
+              {
+                "page": 31,
+                "score": 0.029051670471052088,
+                "chunk_id": "ipcc:p031:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 19,
+                  "tfidf": 1
+                },
+                "text_ref": {
+                  "sha256": "3c9445d42cafaf59ee8fcfcc8d7f81b02d374cc185130e7374bedf09b52ae666",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 113,
+                "score": 0.028309409888357256,
+                "chunk_id": "ipcc:p113:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 6,
+                  "tfidf": 16
+                },
+                "text_ref": {
+                  "sha256": "0c8971dbc7b917d384e6243b08fdaabb705662aa43ed4c4aff22283f0357dd2b",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 4180
+                }
+              },
+              {
+                "page": 93,
+                "score": 0.02571241401899771,
+                "chunk_id": "ipcc:p093:c04640",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 11,
+                  "tfidf": 26
+                },
+                "text_ref": {
+                  "sha256": "ffbe3c80ae86e7c2c87062304acb435f29be8f6e8c5b777b5855bc3b2411a9a6",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4640,
+                  "char_end": 5340
+                }
+              },
+              {
+                "page": 79,
+                "score": 0.02319109461966605,
+                "chunk_id": "ipcc:p079:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 38,
+                  "tfidf": 17
+                },
+                "text_ref": {
+                  "sha256": "4c40a1b4fbd8086ccfe1b776fe1bf8de894e2d746637d8d3b6eb57e16a92b95e",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z8dLCixXPCo6uzjZWj",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_01BcZbPipypDGfEmYL4RYPGz",
+                "name": "search",
+                "input": {
+                  "query": "Figure SPM.3 risk maps global warming levels"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1332,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 47,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 2226.4048999995794
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.00015670000000000001,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z8nnEGU6u84QwsZZCZ"
+        },
+        "elapsed_ms": 2812.3697000000902,
+        "transport_events": [],
+        "query_id": "bd05",
+        "group": "image",
+        "answerable": true
+      },
+      {
+        "question": "In Figure SPM.6, name two conditions in the left-hand box that enable individual and collective action.",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Figure SPM.6 enabling conditions individual and collective action",
+            "results": [
+              {
+                "page": 113,
+                "score": 0.031099324975891997,
+                "chunk_id": "ipcc:p113:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 8,
+                  "tfidf": 1
+                },
+                "text_ref": {
+                  "sha256": "a05958f06b8dce30b2dbd838acaffc441beb6062fea3667ddc3df365e3dc3d53",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 112,
+                "score": 0.030309988518943745,
+                "chunk_id": "ipcc:p112:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 7,
+                  "tfidf": 5
+                },
+                "text_ref": {
+                  "sha256": "8119c6c2e843a2fe7f776193404ecf29be4d5ed85773a9337643bd4789770bd0",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 123,
+                "score": 0.02964426877470356,
+                "chunk_id": "ipcc:p123:c00000",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 6,
+                  "tfidf": 9
+                },
+                "text_ref": {
+                  "sha256": "2b198e51280b2e002705d8d21e65d2c6b10f19ab9e0f87bafd1c0bb92d48903a",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 0,
+                  "char_end": 700
+                }
+              },
+              {
+                "page": 124,
+                "score": 0.026709401709401708,
+                "chunk_id": "ipcc:p124:c00580",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 12,
+                  "tfidf": 18
+                },
+                "text_ref": {
+                  "sha256": "7457f03296ef63de722d0bcdc1746b82611c0a6b33e49186eeb1e3140750f4a7",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 580,
+                  "char_end": 1280
+                }
+              },
+              {
+                "page": 131,
+                "score": 0.026500526500526502,
+                "chunk_id": "ipcc:p131:c00000",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 17,
+                  "tfidf": 14
+                },
+                "text_ref": {
+                  "sha256": "771d06738ab7949cdc1715f325b7ab4233bfb3deede2a86e491fe6d474553d2a",
+                  "characters": 679,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 0,
+                  "char_end": 679
+                }
+              },
+              {
+                "page": 103,
+                "score": 0.026333113890717574,
+                "chunk_id": "ipcc:p103:c06380",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 2,
+                  "tfidf": 38
+                },
+                "text_ref": {
+                  "sha256": "97a74b280c991afb94629167f57442becd02b1862046beace89f42a573930974",
+                  "characters": 204,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 6380,
+                  "char_end": 6584
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z8qNFbEVv6Q1prsCAm",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_015wkgqzd3ZBinAmtp9yiKSe",
+                "name": "search",
+                "input": {
+                  "query": "Figure SPM.6 enabling conditions individual and collective action"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1327,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 50,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 1384.4118999995771
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.0001577,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z8wBWLsH215GQ8TVmD"
+        },
+        "elapsed_ms": 1952.5711000005685,
+        "transport_events": [],
+        "query_id": "bd06",
+        "group": "image",
+        "answerable": true
+      },
+      {
+        "question": "In Figure SPM.7(b), what percentage demand-side reduction potential is annotated for Industry in 2050?",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Figure SPM.7 demand-side mitigation potential Industry 2050",
+            "results": [
+              {
+                "page": 44,
+                "score": 0.03200204813108039,
+                "chunk_id": "ipcc:p044:c01740",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 2,
+                  "tfidf": 3
+                },
+                "text_ref": {
+                  "sha256": "da5910f6917c86f87f5cc8d6f3511dd99ea852dea6b2d45ed153beb518420638",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1740,
+                  "char_end": 2440
+                }
+              },
+              {
+                "page": 118,
+                "score": 0.03177805800756621,
+                "chunk_id": "ipcc:p118:c04640",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 5
+                },
+                "text_ref": {
+                  "sha256": "08c7dc91c62c217c7e2070edae62d6cf29211de862378b88b609ba36504b9570",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4640,
+                  "char_end": 5340
+                }
+              },
+              {
+                "page": 120,
+                "score": 0.03177805800756621,
+                "chunk_id": "ipcc:p120:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 5,
+                  "tfidf": 1
+                },
+                "text_ref": {
+                  "sha256": "4ccffc8c19eb187c993be332ec400a5787875509b3b2d22e67efe1d74ba9601c",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4760
+                }
+              },
+              {
+                "page": 43,
+                "score": 0.027417840375586856,
+                "chunk_id": "ipcc:p043:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 15,
+                  "tfidf": 11
+                },
+                "text_ref": {
+                  "sha256": "efe53ac21795aa0c8609f8205e5a1cd4d0be5a757678028175498b678d352a3d",
+                  "characters": 489,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 3969
+                }
+              },
+              {
+                "page": 79,
+                "score": 0.02664576802507837,
+                "chunk_id": "ipcc:p079:c04060",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 6,
+                  "tfidf": 27
+                },
+                "text_ref": {
+                  "sha256": "872e8b41999de9573e86d729f5cd77dd90834a227f991f42de8b40cf2c3e2eb8",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 4060,
+                  "char_end": 4760
+                }
+              },
+              {
+                "page": 104,
+                "score": 0.025062266500622665,
+                "chunk_id": "ipcc:p104:c00580",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 28,
+                  "tfidf": 13
+                },
+                "text_ref": {
+                  "sha256": "31a0fd9144d56a875babc9012dfaa929b59b81c1c3eac6e46da3c92a10640539",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 580,
+                  "char_end": 1280
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z8ypzXbUrWS2q9iTgF",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_01LUifqSUGCnkKBHVj4Jios9",
+                "name": "search",
+                "input": {
+                  "query": "Figure SPM.7 demand-side mitigation potential Industry 2050"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1333,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 54,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 2454.5164999999542
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.00016030000000000002,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z9A3AWdkMrxyFdMLiX"
+        },
+        "elapsed_ms": 2987.5278999998045,
+        "transport_events": [],
+        "query_id": "bd07",
+        "group": "chart",
+        "answerable": true
+      },
+      {
+        "question": "Compare the Solar and Fossil Carbon Capture and Storage bars in Figure SPM.7(a). Which has the greater total mitigation potential in 2030?",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Figure SPM.7 mitigation potential 2030 solar carbon capture and storage fossil",
+            "results": [
+              {
+                "page": 119,
+                "score": 0.031746031746031744,
+                "chunk_id": "ipcc:p119:c00580",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 3,
+                  "tfidf": 3
+                },
+                "text_ref": {
+                  "sha256": "7506e00c45afc657241c6d7d80498052883c152d724687181859c4e895c6b9f5",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 580,
+                  "char_end": 1280
+                }
+              },
+              {
+                "page": 43,
+                "score": 0.031544957774465976,
+                "chunk_id": "ipcc:p043:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 6
+                },
+                "text_ref": {
+                  "sha256": "a296e4958ceff58942896a8b18ed638eb72dba8b63c169f267391e59dd9a66b0",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 102,
+                "score": 0.030330882352941176,
+                "chunk_id": "ipcc:p102:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 4,
+                  "tfidf": 8
+                },
+                "text_ref": {
+                  "sha256": "01fc6fd469d97eac00ce5a8b676956fcf1a1e88d5e50bcf031237652aef94ce2",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 4180
+                }
+              },
+              {
+                "page": 103,
+                "score": 0.028370221327967807,
+                "chunk_id": "ipcc:p103:c02320",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 10,
+                  "tfidf": 11
+                },
+                "text_ref": {
+                  "sha256": "e739fe66454551554eb2c13c84d97da4f1c8c1b57c0251dfadf191d892e2d752",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 2320,
+                  "char_end": 3020
+                }
+              },
+              {
+                "page": 111,
+                "score": 0.027222222222222224,
+                "chunk_id": "ipcc:p111:c01160",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 12,
+                  "tfidf": 15
+                },
+                "text_ref": {
+                  "sha256": "e7f0f73509609e0fd31ebb74b19ff168254d6db6725ae7b21a52e0492c9e0b56",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 1160,
+                  "char_end": 1860
+                }
+              },
+              {
+                "page": 120,
+                "score": 0.025914384123339348,
+                "chunk_id": "ipcc:p120:c05220",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 31,
+                  "tfidf": 7
+                },
+                "text_ref": {
+                  "sha256": "1521d7cac441933d56a50eaf7b20872132f0da71c9a756370c5938725a6c158a",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 5220,
+                  "char_end": 5920
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z9RdmW5Cb6w8KVr6hr",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_011nQWxXTJcn6yCH6oELBsBn",
+                "name": "search",
+                "input": {
+                  "query": "Figure SPM.7 mitigation potential 2030 solar carbon capture and storage fossil"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1350,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 61,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 4546.95140000058
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.0001655,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5z9m5ZonwPTwq2749p7"
+        },
+        "elapsed_ms": 8252.804300000207,
+        "transport_events": [],
+        "query_id": "bd08",
+        "group": "chart",
+        "answerable": true
+      },
+      {
+        "question": "Read both axes of Figure 3.5(b): what quantities and units are shown, and what baseline year/period is used?",
+        "preset": "compact",
+        "config": {
+          "top_k": 6,
+          "max_calls": 7,
+          "max_views": 3,
+          "edge": 1200
+        },
+        "status": "error",
+        "answer": "",
+        "citations": [],
+        "events": [
+          {
+            "event": "search",
+            "query": "Figure 3.5(b)",
+            "results": [
+              {
+                "page": 87,
+                "score": 0.029906956136464335,
+                "chunk_id": "ipcc:p087:c07540",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 1,
+                  "tfidf": 14
+                },
+                "text_ref": {
+                  "sha256": "d990c4a7cd92e700d68783f0ed851453f577838cfd0606a8bf28663d97ef9a9e",
+                  "characters": 73,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 7540,
+                  "char_end": 7613
+                }
+              },
+              {
+                "page": 113,
+                "score": 0.029631255487269532,
+                "chunk_id": "ipcc:p113:c03480",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 7,
+                  "tfidf": 8
+                },
+                "text_ref": {
+                  "sha256": "0c8971dbc7b917d384e6243b08fdaabb705662aa43ed4c4aff22283f0357dd2b",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 3480,
+                  "char_end": 4180
+                }
+              },
+              {
+                "page": 66,
+                "score": 0.02804284323271665,
+                "chunk_id": "ipcc:p066:c08700",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 5,
+                  "tfidf": 19
+                },
+                "text_ref": {
+                  "sha256": "d3e0a6d5c9c729c94e0a0af251e03658d97cdd8350c7ffb9089a6c589d8ec200",
+                  "characters": 99,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 8700,
+                  "char_end": 8799
+                }
+              },
+              {
+                "page": 90,
+                "score": 0.02797067901234568,
+                "chunk_id": "ipcc:p090:c02900",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 4,
+                  "tfidf": 21
+                },
+                "text_ref": {
+                  "sha256": "bf922ad9ad51869ec121501d4f54424b5e381e65bc327c5c90973b4c7b9fae48",
+                  "characters": 117,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 2900,
+                  "char_end": 3017
+                }
+              },
+              {
+                "page": 115,
+                "score": 0.027777777777777776,
+                "chunk_id": "ipcc:p115:c02320",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 24,
+                  "tfidf": 3
+                },
+                "text_ref": {
+                  "sha256": "b9351ad8071330ab514d61c4d8ccf30f102a0cc9ae2ec94701fe6047743863d4",
+                  "characters": 700,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 2320,
+                  "char_end": 3020
+                }
+              },
+              {
+                "page": 46,
+                "score": 0.026129032258064518,
+                "chunk_id": "ipcc:p046:c05220",
+                "source": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf",
+                "component_ranks": {
+                  "dense": 2,
+                  "tfidf": 40
+                },
+                "text_ref": {
+                  "sha256": "2eece0894e9cca2e85e31c3aa2f8050fb8fcf038a617113c8fd18d7cc41c1248",
+                  "characters": 44,
+                  "extraction": "normalized_page_slice",
+                  "char_start": 5220,
+                  "char_end": 5264
+                }
+              }
+            ]
+          }
+        ],
+        "model_calls": [
+          {
+            "id": "msg_011Ch5z9p1RhYX927X9B2mHy",
+            "model": "claude-haiku-5-5",
+            "stop_reason": "tool_use",
+            "content": [
+              {
+                "type": "tool_use",
+                "id": "toolu_01EbxtFx6WnMfaeNpnZnCLbr",
+                "name": "search",
+                "input": {
+                  "query": "Figure 3.5(b)"
+                },
+                "caller": {
+                  "type": "direct"
+                }
+              }
+            ],
+            "usage": {
+              "input_tokens": 1332,
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 0
+              },
+              "output_tokens": 39,
+              "output_tokens_details": {
+                "thinking_tokens": 0
+              },
+              "service_tier": "standard",
+              "inference_geo": "global",
+              "speed": "standard"
+            },
+            "elapsed_ms": 1512.5832000003356
+          }
+        ],
+        "regions": [],
+        "cost_usd": 0.00015270000000000003,
+        "error": {
+          "type": "ProviderError",
+          "message": "Anthropic HTTP 400; request_id=req_011Ch5zASXdHjJTmRWKF2B2r"
+        },
+        "elapsed_ms": 9251.781799999662,
+        "transport_events": [],
+        "query_id": "bd09",
+        "group": "chart",
+        "answerable": true
+      }
+    ],
+    "note": "Development setup failure: READ schema used unsupported strict minItems/maxItems. Fixed before valid dev comparisons and before test."
+  }
+}

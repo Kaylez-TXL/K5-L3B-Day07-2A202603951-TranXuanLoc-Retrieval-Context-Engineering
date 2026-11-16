@@ -1,0 +1,6 @@
+{
+  "baseline": {"method": "dense", "top_k": 3, "budget": 800, "max_searches": 1, "hypothesis": "Day 6 dense A, one model-directed search and starter-size context as reference."},
+  "lexical": {"method": "tfidf", "top_k": 3, "budget": 800, "max_searches": 1, "hypothesis": "Lexical matching may help exact technical terms; keep baseline context and search limits."},
+  "hybrid": {"method": "hybrid", "top_k": 3, "budget": 2400, "max_searches": 3, "hypothesis": "Improvement 1: rank fusion plus larger context and follow-up search may recover technical terms and missing evidence. Combined intervention; do not attribute gains to fusion alone."},
+  "dense_wide": {"method": "dense", "top_k": 5, "budget": 3600, "max_searches": 3, "hypothesis": "Improvement 2: more dense candidates, context space and follow-up queries may recover evidence cut across chunks. Combined intervention; higher token cost expected."}
+}

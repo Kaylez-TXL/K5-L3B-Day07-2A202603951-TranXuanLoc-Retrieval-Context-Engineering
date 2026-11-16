@@ -1,0 +1,248 @@
+[
+  {
+    "id": "day7-q01",
+    "split": "dev",
+    "question": "Tính chất của Au NPs phụ thuộc vào những yếu tố nào?",
+    "answerable": true,
+    "expected_answer": "Kích thước, hình dạng, trạng thái kết tụ và môi trường xung quanh.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 14,
+        "evidence": "các tính chất\ncủa Au NPs phụ thuộc vào kích thước, hình dạng, trạng thái kết tụ và môi trường xung\nquanh"
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q02",
+    "split": "dev",
+    "question": "Ba nhóm phương pháp tổng hợp hạt nano được nêu trong đồ án là gì?",
+    "answerable": true,
+    "expected_answer": "Ngưng tụ hơi; tổng hợp hóa học; quy trình trạng thái rắn như nghiền.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 16,
+        "evidence": "các phương pháp này có thể được phân loại thành ba loại chính: ngưng tụ hơi, tổng hợp\nhóa học, và các quy trình trạng thái rắn như nghiền."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q03",
+    "split": "dev",
+    "question": "Dùng vật liệu quý làm lớp phủ trên vật liệu rẻ hơn có lợi ích kinh tế gì?",
+    "answerable": true,
+    "expected_answer": "Giảm lượng vật liệu quý so với sản xuất thể tích tương đương của vật liệu thuần túy.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 17,
+        "evidence": "Để giảm thiểu việc sử dụng vật liệu quý giá, nó có th ể được áp\ndụng như một lớp phủ trên vật liệu rẻ hơn, dẫn đến việc giảm lượng vật liệu quý giá cần\nthiết so với việc sản xuất một thể tích tương đương của vật liệu thuần túy."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q04",
+    "split": "dev",
+    "question": "Trong chương 2, FOM của cảm biến LSPR được định nghĩa thế nào?",
+    "answerable": true,
+    "expected_answer": "Tỷ số giữa độ nhạy chiết suất và FWHM của đỉnh cộng hưởng.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 19,
+        "evidence": "FOM được định nghĩa là tỷ số giữa độ\nnhạy chiết suất và độ rộng bán phổ FWHM của đỉnh cộng hưởng."
+      }
+    ],
+    "filter": {
+      "chapter": 2
+    },
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q05",
+    "split": "dev",
+    "question": "Vì sao chạy hàng nghìn mô phỏng truyền thống trở nên khó khả thi?",
+    "answerable": true,
+    "expected_answer": "Mỗi lần có thể kéo dài vài phút đến vài giờ tùy độ phức tạp.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 20,
+        "evidence": "Mỗi lần mô phỏng có thể kéo dài từ vài\nphút đến vài giờ tùy theo độ phức tạp của cấu trúc, khiến việc thực hiện hàng nghìn lần\nmô phỏng để khảo sát không gian tham số trở nên không khả thi trong thực tế."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q06",
+    "split": "dev",
+    "question": "Lý thuyết Mie mô tả tán xạ và hấp thụ ánh sáng của loại hạt nào?",
+    "answerable": true,
+    "expected_answer": "Hạt hình cầu đồng nhất.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 25,
+        "evidence": "Vào đầu thế kỷ 20, Gustav Mie đã phát tri ển một nghiệm giải tích chính xác cho\nhệ phương trình Maxwell nhằm mô tả hiện tượng tán xạ và hấp thụ ánh sáng của các hạt\nhình cầu đồng nhất."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q07",
+    "split": "dev",
+    "question": "Khi hạt rất nhỏ so với bước sóng, thành phần đa cực nào chiếm ưu thế trong xấp xỉ Mie?",
+    "answerable": true,
+    "expected_answer": "Lưỡng cực L = 1; bỏ các đa cực bậc cao.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 26,
+        "evidence": "Khi đó, thành phần lưỡng cực 𝐿 = 1 đóng\nvai trò chủ đạo, và ta có thể xấp xỉ chuỗi Mie bằng cách loại bỏ các đa cực bậc cao."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q08",
+    "split": "dev",
+    "question": "Đồ án áp dụng Maxwell có hiệu ứng trễ hay gần đúng tĩnh điện cho các trường hợp tính toán?",
+    "answerable": true,
+    "expected_answer": "Maxwell có hiệu ứng trễ cho mọi trường hợp.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 29,
+        "evidence": "Trong đ ồ án này, toàn b ộ hệ phương trình Maxwell có tính đ ến hi ệu ứng tr ễ\n(retarded Maxwell equations) đư ợc áp d ụng cho m ọi trường hợp tính toán, thay vì s ử\ndụng gần đúng tĩnh điện."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q09",
+    "split": "dev",
+    "question": "MNPBEM chuẩn hóa kích thước và bước sóng trong chân không về đơn vị nào?",
+    "answerable": true,
+    "expected_answer": "Nanomet (nm).",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 32,
+        "evidence": "Hệ thống sử dụng hệ đơn vị Gauss, trong đó mọi thông số kích thước\nhình học và bư ớc sóng ánh sáng λ trong chân không đ ều được chuẩn hóa v ề đơn vị\nnanomet (nm) ."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q10",
+    "split": "dev",
+    "question": "Theo chương 3, tham số bo góc của nanocube là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "0.25.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 33,
+        "evidence": "toàn bộ các hạt nanocube\nđược mô hình hóa với các cạnh bo tròn, sử dụng tham số bo góc là 0.25."
+      }
+    ],
+    "filter": {
+      "chapter": 3
+    },
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q11",
+    "split": "dev",
+    "question": "Theo phần lấy mẫu, khoảng khảo sát kích thước lõi Au và độ dày vỏ Ag là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "Lõi Au 5.0–100.0 nm; vỏ Ag 5.0–60.0 nm.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 35,
+        "evidence": "- Kích thước lõi Au: từ 5.0 nm đến 100.0 nm.\n- Độ dày vỏ Ag: từ 5.0 nm đến 60.0 nm."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q12",
+    "split": "dev",
+    "question": "Vì sao chuẩn hóa dữ liệu trước khi phân cụm K-Means?",
+    "answerable": true,
+    "expected_answer": "Để tham số biên độ nhỏ như chiết suất không bị tham số biên độ lớn chi phối.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 36,
+        "evidence": "Trước khi phân cụm, dữ liệu được chuẩn hóa để đảm bảo tham số có\nbiên độ nhỏ như chiết suất môi trường không bị chi phối bởi các tham số có biên độ lớn."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q13",
+    "split": "dev",
+    "question": "ReduceLROnPlateau làm gì nếu sai số không giảm sau một số chu kỳ?",
+    "answerable": true,
+    "expected_answer": "Tự động chia nhỏ tốc độ học.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 37,
+        "evidence": "Thuật toán này liên t ục theo dõi hàm m ất mát; n ếu sau m ột số chu kỳ\nnhất định mà sai số không giảm, tốc độ học sẽ tự động được chia nhỏ,"
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q14",
+    "split": "dev",
+    "question": "Theo kết quả ở chương 4, quá trình huấn luyện kéo dài bao nhiêu chu kỳ?",
+    "answerable": true,
+    "expected_answer": "3000 epochs.",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 56,
+        "evidence": "Quá trình huấn luyện mô hình được thực hiện trong 3000 chu kỳ (epochs)."
+      }
+    ],
+    "filter": {
+      "chapter": 4
+    },
+    "provenance": "Day 6 dev; reused"
+  },
+  {
+    "id": "day7-q15",
+    "split": "dev",
+    "question": "Phần đánh giá tổng thể báo cáo MAE và RMSE bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "MAE 3360.23 nm²; RMSE 6821.86 nm².",
+    "gold": [
+      {
+        "source_id": "auag-thesis-2026",
+        "page": 57,
+        "evidence": "- Sai số tuyệt đối trung bình (MAE): 3360.23 𝑛𝑚2.\n- Căn bậc hai sai số bình phương trung bình (RMSE): 6821.86 𝑛𝑚2."
+      }
+    ],
+    "filter": {},
+    "provenance": "Day 6 dev; reused"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "preset": "focused",
+  "config": {
+    "top_k": 10,
+    "max_calls": 10,
+    "max_views": 6,
+    "edge": 1560,
+    "caption_boost": true,
+    "request_retries": 2
+  },
+  "model": "claude-haiku-5-5",
+  "selected_before_test": true,
+  "selected_at": "2026-11-16T05:03:19.997710+00:00",
+  "rule": "Max dev binary passes, then fewer errors, then lower token cost, then preset name.",
+  "benchmark_sha256": "807435fa48c527ee7dbb4ea7e349f22153b96baa0bbc193d1a541487eded7fd3",
+  "code_sha256": "e5352033fb496efd2410c9bdde12512ff081364b6c59ee1081f1314f2dedb3c2",
+  "source_sha256": "f5258cf9434fd8887848e334197b6397ad6e107a6f06ddf21a00b2bce3f5dee6",
+  "dev_summaries": {
+    "compact": {
+      "split": "dev",
+      "preset": "compact",
+      "passed": 6,
+      "total": 18,
+      "rate": 0.3333333333333333,
+      "groups": {
+        "table": {
+          "n": 1,
+          "N": 3
+        },
+        "image": {
+          "n": 2,
+          "N": 3
+        },
+        "chart": {
+          "n": 1,
+          "N": 3
+        },
+        "multihop": {
+          "n": 0,
+          "N": 3
+        },
+        "text": {
+          "n": 1,
+          "N": 3
+        },
+        "unanswerable": {
+          "n": 1,
+          "N": 3
+        }
+      },
+      "errors": 9,
+      "human_review_complete": false,
+      "numeric_90_percent_met": false,
+      "review_status": "ai_provisional",
+      "bonus_claim_ready": false,
+      "estimated_api_cost_usd": 0.039073100000000006,
+      "input_tokens": 359166,
+      "output_tokens": 6313,
+      "elapsed_ms": 454588.52160000335,
+      "note": "All published cases included; no rounding to cross 90%. Source/units/conditions/calculations checked against original PDF. AI labels do not replace author review."
+    },
+    "thorough": {
+      "split": "dev",
+      "preset": "thorough",
+      "passed": 15,
+      "total": 18,
+      "rate": 0.8333333333333334,
+      "groups": {
+        "table": {
+          "n": 3,
+          "N": 3
+        },
+        "image": {
+          "n": 3,
+          "N": 3
+        },
+        "chart": {
+          "n": 2,
+          "N": 3
+        },
+        "multihop": {
+          "n": 2,
+          "N": 3
+        },
+        "text": {
+          "n": 2,
+          "N": 3
+        },
+        "unanswerable": {
+          "n": 3,
+          "N": 3
+        }
+      },
+      "errors": 0,
+      "human_review_complete": false,
+      "numeric_90_percent_met": false,
+      "review_status": "ai_provisional",
+      "bonus_claim_ready": false,
+      "estimated_api_cost_usd": 0.057380900000000006,
+      "input_tokens": 527059,
+      "output_tokens": 9350,
+      "elapsed_ms": 144521.9152000018,
+      "note": "All published cases included; no rounding to cross 90%. Source/units/conditions/calculations checked against original PDF. AI labels do not replace author review."
+    },
+    "focused": {
+      "split": "dev",
+      "preset": "focused",
+      "passed": 17,
+      "total": 18,
+      "rate": 0.9444444444444444,
+      "groups": {
+        "table": {
+          "n": 3,
+          "N": 3
+        },
+        "image": {
+          "n": 3,
+          "N": 3
+        },
+        "chart": {
+          "n": 2,
+          "N": 3
+        },
+        "multihop": {
+          "n": 3,
+          "N": 3
+        },
+        "text": {
+          "n": 3,
+          "N": 3
+        },
+        "unanswerable": {
+          "n": 3,
+          "N": 3
+        }
+      },
+      "errors": 0,
+      "human_review_complete": false,
+      "numeric_90_percent_met": true,
+      "review_status": "ai_provisional",
+      "bonus_claim_ready": false,
+      "estimated_api_cost_usd": 0.0583733,
+      "input_tokens": 545808,
+      "output_tokens": 7585,
+      "elapsed_ms": 366066.84159999894,
+      "note": "All published cases included; no rounding to cross 90%. Source/units/conditions/calculations checked against original PDF. AI labels do not replace author review."
+    }
+  }
+}

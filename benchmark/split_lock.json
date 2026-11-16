@@ -1,0 +1,34 @@
+{
+  "benchmark_sha256": "9f0fe0c5d200496f8c35bb47a316d9c74729e6edb6384ef46db74026e3fc6f6c",
+  "dev_ids": [
+    "day7-q01",
+    "day7-q02",
+    "day7-q03",
+    "day7-q04",
+    "day7-q05",
+    "day7-q06",
+    "day7-q07",
+    "day7-q08",
+    "day7-q09",
+    "day7-q10",
+    "day7-q11",
+    "day7-q12",
+    "day7-q13",
+    "day7-q14",
+    "day7-q15",
+    "day7-u01",
+    "day7-u02"
+  ],
+  "test_ids": [
+    "day7-t01",
+    "day7-t02",
+    "day7-t03",
+    "day7-t04",
+    "day7-t05",
+    "day7-u03",
+    "day7-u04"
+  ],
+  "frozen_before_day7_retrieval": true,
+  "author_review": "pending; no claim of human verification",
+  "policy": "Tune on dev only. Changes after test inspection require a new held-out test."
+}

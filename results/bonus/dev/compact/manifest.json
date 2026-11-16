@@ -1,0 +1,34 @@
+{
+  "split": "dev",
+  "preset": "compact",
+  "config": {
+    "top_k": 6,
+    "max_calls": 7,
+    "max_views": 3,
+    "edge": 1200
+  },
+  "model": "claude-haiku-5-5",
+  "benchmark_sha256": "807435fa48c527ee7dbb4ea7e349f22153b96baa0bbc193d1a541487eded7fd3",
+  "code_sha256": "701fb3182fb4a5569baece24bf3ad7df68c3723cf45d8c8ac873679fa24a6896",
+  "source_sha256": "f5258cf9434fd8887848e334197b6397ad6e107a6f06ddf21a00b2bce3f5dee6",
+  "query_ids": [
+    "bd01",
+    "bd02",
+    "bd03",
+    "bd04",
+    "bd05",
+    "bd06",
+    "bd07",
+    "bd08",
+    "bd09",
+    "bd10",
+    "bd11",
+    "bd12",
+    "bd13",
+    "bd14",
+    "bd15",
+    "bd16",
+    "bd17",
+    "bd18"
+  ]
+}
